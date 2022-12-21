@@ -1,0 +1,64 @@
+#c1{
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+  margin: 40px;
+  background-image: url(grid.png);
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  background: #ee4c1a;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 250px;
+  padding: 5px 10px;
+}
+
+
+body {
+  background: rgba(245, 78, 45, 0.8);
+  
+}
+ 
+
+
+.Navigation{
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:16px;
+	text-decoration: none; 
+	color:rgb(247, 97, 51);
+	display: block;
+}
+.Navigation li ul{
+	display: none;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
